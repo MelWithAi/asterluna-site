@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AsterLuna</title>
+<style>
+  :root{
+    --navy:#2C3650; --navy2:#46577A; --ivory:#EDE6DE; --peach:#F2A97E;
+    --plum:#8A5F84; --lav:#908db9; --gold:#EDD9A3; --page:#EBECEF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--navy); background:var(--page); line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .hero{
+    background:linear-gradient(180deg,#3A4767 0%,#232C44 100%);
+    color:var(--ivory); text-align:center; padding:90px 24px 80px;
+  }
+  .mark{width:96px;height:96px;margin:0 auto 28px;display:block}
+  h1{font-size:2.6rem;font-weight:700;letter-spacing:-.5px;margin-bottom:14px}
+  .tag{font-size:1.15rem;opacity:.85;max-width:32rem;margin:0 auto}
+  .wrap{max-width:44rem;margin:0 auto;padding:64px 24px}
+  .lead{font-size:1.35rem;font-weight:600;color:var(--navy);margin-bottom:20px}
+  p{margin-bottom:18px;color:#3d4459}
+  .promise{
+    background:#fff;border-radius:18px;padding:28px 30px;margin:36px 0;
+    border:1px solid #d9dae4;
+  }
+  .promise strong{color:var(--plum)}
+  .links{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:40px}
+  .links a{
+    text-decoration:none;color:var(--navy);background:#fff;
+    border:1px solid #d0d1e1;border-radius:12px;padding:13px 26px;font-weight:600;
+    transition:background .15s;
+  }
+  .links a:hover{background:var(--ivory)}
+  footer{text-align:center;padding:40px 24px;color:#7c8296;font-size:.9rem}
+  footer a{color:var(--navy2)}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <svg class="mark" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="AsterLuna">
+      <g transform="translate(100,100)">
+        <g fill="#d0d1e1" stroke="#a9a9c4" stroke-width="2">
+          <ellipse rx="16" ry="60" cy="-2"/>
+          <ellipse rx="16" ry="60" cy="-2" transform="rotate(45)"/>
+          <ellipse rx="16" ry="60" cy="-2" transform="rotate(90)"/>
+          <ellipse rx="16" ry="60" cy="-2" transform="rotate(135)"/>
+        </g>
+        <circle r="26" fill="#232C44" stroke="#d0d1e1" stroke-width="4"/>
+        <circle cx="-2" cy="0" r="16" fill="#EDD9A3"/>
+        <circle cx="6" cy="-3" r="14" fill="#232C44"/>
+      </g>
+    </svg>
+    <h1>AsterLuna</h1>
+    <p class="tag">A private perimenopause symptom tracker. Your patterns, organized for your doctor.</p>
+  </div>
+
+  <div class="wrap">
+    <p class="lead">Track what's happening. Show your doctor proof.</p>
+    <p>AsterLuna helps you record perimenopause symptoms, spot patterns, and generate a clear report to bring to your provider. Logging is free, and your health data stays on your device and in your own private iCloud.</p>
+
+    <div class="promise">
+      <p style="margin-bottom:0"><strong>Your data never leaves your device.</strong> AsterLuna has no server that collects your symptoms, cycle, or journal. We cannot see your health information, download it, or sell it. There is nothing for us to sell.</p>
+    </div>
+
+    <p>AsterLuna is a personal tracking tool. It does not diagnose or treat, and it is not a substitute for professional medical care. Always talk to a qualified provider about your health.</p>
+
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made by Snively Studios &middot; <a href="mailto:mel@melwithai.com">mel@melwithai.com</a></p>
+  </footer>
+</body>
+</html>
